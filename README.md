@@ -1,11 +1,11 @@
 # git-learn
 
 Learning Git concepts demo repository
-Adding feature1
-Feature2
-Feature3
-Feature5
-Feature6
-Added Me feature1
-Added me feature 22
-Feature 12 only
+Adding feature1<br/>
+Feature2<br/>
+Feature3<br/>
+Feature5<br/>
+Feature6<br/>
+Added Me feature1<br/>
+Added me feature 22<br/>
+Feature 12 only<br/>
