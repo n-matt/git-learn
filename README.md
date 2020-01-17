@@ -1,3 +1,3 @@
 # git-learn
 
-Git learning sample demo repository
+Git learning sample demo repository test
