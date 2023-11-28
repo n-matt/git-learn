@@ -27,7 +27,3 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-  upload-to-codecov:
-    jobs:
-      - checkout
-      - codecov/upload
