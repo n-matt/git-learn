@@ -36,3 +36,10 @@ def test_divide():
 
 def test_square():
     assert Calculator.square(2, 2) == 4
+
+
+def test_split():
+    a, b, c = Calculator.get_split("hello/world/python")
+    assert a == "hello"
+    assert b == "world"
+    assert c == "python"
