@@ -16,7 +16,7 @@ jobs:
           command: pip install -r requirements.txt
       - run:
           name: Run tests and collect coverage
-          command: export PYTHONPATH="${PYTHONPATH}:/home/circleci/project && pytest --cov api.calculator
+          command: export PYTHONPATH="${PYTHONPATH}:/home/circleci/project" && pytest --cov api.calculator
       - codecov/upload
 
 workflows:
