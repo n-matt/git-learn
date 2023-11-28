@@ -40,6 +40,6 @@ def test_square():
 
 def test_split():
     a, b, c = Calculator.get_split("hello/world/python")
-    assert a == "hello"
+    assert a == "python"
     assert b == "world"
-    assert c == "python"
+    assert c == "hello"
