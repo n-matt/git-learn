@@ -20,5 +20,5 @@ class Calculator:
         l1 = val.split("/")
         name = l1[-1]
         age = l1[-2]
-        pla = l1[-2]
+        pla = l1[-3]
         return name, age, pla
