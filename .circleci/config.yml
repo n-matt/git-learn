@@ -18,6 +18,7 @@ jobs:
           name: Run tests and collect coverage
           command: export PYTHONPATH="${PYTHONPATH}:/home/circleci/project/git-learn" && pytest --cov .
       - codecov/upload
+          file: /home/circleci/project/git-learn/coverage.xml
 
 workflows:
   version: 2.1
